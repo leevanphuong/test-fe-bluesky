@@ -1,0 +1,519 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1410px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.backgound {
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 0 36px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 1px;
+  box-sizing: border-box;
+}
+
+.line-1 {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 1px;
+  box-sizing: border-box;
+}
+
+.copyright {
+  margin-right: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1411px;
+  box-sizing: border-box;
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  width: 396px;
+  box-sizing: border-box;
+}
+
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7 {
+  border-radius: 3px;
+  border: 1px solid var(--border, #e5e8ec);
+  background: var(--background, #ffffff);
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3px;
+  width: 51px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.bg-2 {
+  border-radius: 2px;
+  width: 43px;
+  height: 22px;
+}
+.bg-2 {
+  background: url("./img/bg1.png") 50% / cover no-repeat;
+  width: 43px;
+  height: 22px;
+}
+.bg-3 {
+  background: url("./img/2.png") 50% / cover no-repeat;
+  width: 44px;
+  height: 22px;
+}
+
+.bg-4,
+.bg-5,
+.bg-6,
+.bg-7 {
+  width: 45px;
+  height: 22px;
+}
+.bg-4 {
+  background: url("./img/3.png") 50% / cover no-repeat;
+}
+
+.bg-5 {
+  background: url("./img/4.png") 50% / cover no-repeat;
+}
+
+.bg-6 {
+  background: url("./img/5.png") 50% / cover no-repeat;
+}
+
+.bg-7 {
+  background: url("./img/6.png") 50% / cover no-repeat;
+}
+
+.bg-8 {
+  background: url("./img/7.png") 50% / cover no-repeat;
+  width: 43px;
+  height: 22px;
+}
+
+.payment-method {
+  margin: 6px 19.1px 6px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.copyright-duck {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  box-sizing: border-box;
+}
+.userIcon {
+  display: flex;
+  justify-content: right;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.button-subscribe {
+  border-radius: 30px;
+  background: var(--key, #2b38d1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17.5px 0;
+  width: 140px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.subscribe-text {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--background, #000);
+}
+.input {
+  border-radius: 50px;
+  border: 1px solid #e5e8ec;
+  background: #ffffff;
+  position: relative;
+  margin-right: 10px;
+  padding: 17px 20.1px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.your-email-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.join-2000 {
+  margin: 0 3.7px 30px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.sign-up-to-newsletter {
+  margin: 0 1px 22px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.quick-links {
+  margin: 0 128.9px 96px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.blog-us-feed-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sign-up-to-newsletter-10 {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.information {
+  margin: 0 100px 60px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.blog-us-feed-back-11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sign-up-to-newsletter-12 {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.about-the-store {
+  margin: 0 150px 12px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.st-sunnyside {
+  margin-left: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hotline2 {
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.got-question {
+  margin: 0 1px 7px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.sign-up-to-newsletter-13 {
+  margin: 0 1px 22px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.container-last {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.container-14 {
+  margin: 0 1px 59px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.container-15 {
+  margin: 0 0 16px 1px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.bg-16 {
+  background: var(--border, #e5e8ec);
+  width: 100%;
+  height: 1px;
+}
+
+.bg-17 {
+  background: var(--border, #e5e8ec);
+  width: 100%;
+  height: 1px;
+}
+
+.payment-method-18 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.copyright-blueskytechco {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.333;
+  color: var(--key, #2b38d1);
+}
+
+.copyright-blueskytechco-sub1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  color: #515d66;
+}
+
+.copyright-blueskytechco-sub9 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.333;
+  color: var(--key, #2b38d1);
+}
+.your-email-address-20 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--body-2, #8d979e);
+}
+
+.join-20000-21 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.sign-up-to-newsletter-22 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title, #212529);
+}
+
+.blog-us-feed-back {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.sign-up-to-newsletter-23 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title, #212529);
+}
+
+.blog-us-feed-back-24 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.blog-us-feed-back-24-sub2 {
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration-line: underline;
+  line-height: 1.333;
+  color: var(--title, #212529);
+}
+
+.sign-up-to-newsletter-25 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title, #212529);
+}
+
+.st-south {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.hotline1 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--key, #2b38d1);
+}
+
+.got-question-call-us-247 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+
+.sign-up-to-newsletter-26 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title, #212529);
+}
+@media screen and (max-width: 768px) {
+  footer,
+  .copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line,
+  .line-1 {
+    display: none; /* Ẩn các đường line nếu không cần thiết */
+  }
+
+  .backgound {
+    background-color: #f2f2f2; /* Thay đổi màu nền nếu cần */
+    padding: 20px; /* Thêm padding nếu cần */
+  }
+  .container-15 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .container-14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-15 .input {
+    width: 200px;
+  }
+  .container-15 .button-subscribe {
+    width: 90px;
+  }
+  .about-the-store,
+  .information,
+  .quick-links,
+  .newsletter,
+  .copyright {
+    margin-bottom: 20px; /* Thêm khoảng cách giữa các phần tử */
+  }
+
+  .container-last {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userIcon {
+    align-items: flex-end; /* Canh các phần tử về phía phải */
+  }
+
+  .payment {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    gap: 2px;
+  }
+
+  .payment-method-18 {
+    margin-right: 10px; /* Thêm khoảng cách giữa các phần tử */
+  }
+}

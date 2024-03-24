@@ -1,0 +1,553 @@
+header {
+  width: 100%;
+  height: 176px;
+  text-align: center;
+}
+.topLink {
+  width: 1410px;
+  display: inline-block;
+  height: 14px;
+  top: 14px;
+}
+.container-2 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1410px;
+  box-sizing: border-box;
+}
+.websearch {
+  margin: 0 auto;
+  width: 1410px;
+}
+@media screen and(min-width: 1410px) {
+  .websearch,
+  .topLink,
+  .container-2 {
+    min-width: 1410px;
+  }
+  .websearch .logo img {
+    float: left;
+  }
+}
+.topLink .notification {
+  font-size: 13px;
+  line-height: 14px;
+  text-align: left;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.topLink .notification a {
+  color: #212529;
+  font-weight: 500;
+}
+.topLink .listlink ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  line-height: 14px;
+}
+
+.topLink .listlink ul li {
+  display: inline-block;
+}
+.topLink .listlink ul li:nth-child(4) {
+  border-left: 1px solid gray;
+  padding-left: 20px;
+}
+.topLink .listlink ul li a {
+  font-size: 13px;
+  color: #212529;
+  text-decoration: none;
+}
+.topLink .listlink ul li ul li {
+  display: block;
+  font-size: 13px;
+  color: #212529;
+  width: 100px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  background-color: #e5e8ec;
+  padding: 10px;
+}
+.topLink .listlink ul li ul li:first-child {
+  margin-top: 5px;
+}
+.topLink .listlink ul li ul {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+.topLink .listlink ul li:hover ul {
+  display: block;
+}
+
+/*Search*/
+
+.logo img {
+  margin: 1px 0 0.8px 0;
+  width: 141.2px;
+  height: 43.2px;
+}
+.search {
+  border-radius: 5px;
+  border: 2px solid #e5e8ec;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+.select-category {
+  margin: 13px 0 14px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 336.2px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.select-category select {
+  border: none;
+  margin-right: 9px;
+  width: 111px;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--title, #212529);
+}
+.select-category input {
+  border: none;
+  margin: 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--body-2, #8d979e);
+}
+.button-search {
+  border-radius: 0 5px 5px 0;
+  background: var(--key, #2b38d1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13.5px 0;
+  width: 110px;
+  box-sizing: border-box;
+  border: 2px solid var(--key, #2b38d1);
+}
+.search-click {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--background, #ffffff);
+}
+
+.line-cate .line {
+  background: var(--border, #e5e8ec);
+  width: 1px;
+  height: 15px;
+}
+
+.container-201 {
+  margin: 5px 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.container-190 {
+  margin: 0 0 20px 0.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1410.5px;
+  box-sizing: border-box;
+}
+.logo {
+  margin: 1px 0 0.8px 0;
+  width: 141.2px;
+  height: 43.2px;
+}
+.search {
+  border-radius: 5px;
+  border: 2px solid #e5e8ec;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  width: 782px;
+  box-sizing: border-box;
+}
+.button-search {
+  border-radius: 0 5px 5px 0;
+  background: var(--key, #2b38d1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13.5px 0;
+  width: 110px;
+  box-sizing: border-box;
+}
+.text-173 {
+  margin: 13px 0 14px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 336.2px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.search-in-200-products {
+  margin: 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--body-2, #8d979e);
+}
+.all-categories {
+  margin-right: 9px;
+  width: 111px;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--title, #212529);
+}
+.check174 {
+  margin-top: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "blueskytechco", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--body, #515d66);
+}
+.line-175,
+.line-cate {
+  background: var(--border, #e5e8ec);
+  margin: 2px 0 1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.search-325 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--background, #ffffff);
+}
+.container-201 {
+  margin: 5px 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.login {
+  margin: 2px 26px 0 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.text-167 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 13px;
+  box-sizing: border-box;
+}
+
+.icon-168 {
+  margin: 4px 10px 4px 0;
+  width: 23px;
+  height: 23px;
+}
+.your-cart-324 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--body, #515d66);
+}
+.wishlist {
+  position: relative;
+  margin: 0 27px 4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 11px 18px;
+  box-sizing: border-box;
+}
+.icon-164 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 28px;
+  height: 23px;
+  box-sizing: border-box;
+}
+.vector-165 {
+  width: 28px;
+  height: 23px;
+}
+.qty-166 {
+  border-radius: 9px;
+  background: #dd3842;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2px 6.1px 3px 6.1px;
+  box-sizing: border-box;
+}
+.item2322 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--background, #ffffff);
+}
+.item28000323 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--title, #212529);
+}
+.cart {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.text-160 {
+  position: relative;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 13px;
+  box-sizing: border-box;
+}
+.icon-161 {
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 27px;
+  height: 22.9px;
+}
+.qty {
+  border-radius: 9px;
+  background: #dc323c;
+  position: relative;
+  margin: 0 10px 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2px 6.1px 3px 6.1px;
+  box-sizing: border-box;
+}
+.item2320 {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--background, #ffffff);
+}
+.your-cart {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--body, #515d66);
+}
+.price28000 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title, #212529);
+}
+.categories {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 251px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.container-cate {
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.browse-all {
+  margin: 1px 0 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--title, #212529);
+}
+.Iconmenu {
+  margin-right: 19px;
+  overflow-wrap: break-word;
+  font-family: "blueskytechco", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--title, #212529);
+}
+.menuTab {
+  margin-right: 19px;
+  overflow-wrap: break-word;
+  font-family: "blueskytechco", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--title, #212529);
+}
+.line-menu {
+  background: var(--border, #e5e8ec);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1px;
+  height: 19px;
+  box-sizing: border-box;
+}
+.menu-list {
+  margin: 2px 0 4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 622.9px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.menu-list ul li {
+  display: inline;
+  padding-right: 15px;
+  font-family: "Bai Jamjuree";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align: left;
+}
+.BuyUminex {
+  color: #dc323c;
+}
+.menu-list .item {
+  margin-top: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "blueskytechco", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--body, #515d66);
+}
+.sale {
+  margin: 0 0px 3px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.text-156 {
+  margin: 2px 0 3px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.sale-20-off-your-first-order {
+  overflow-wrap: break-word;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--title, #212529);
+}
+.icon {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  box-sizing: border-box;
+}
+.icon-sale {
+  width: 21px;
+  height: 21px;
+}
+@media screen and (max-width: 768px) {
+  .topLink {
+    width: 100%;
+  }
+  .row .toplink2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .websearch {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .search {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 45px;
+    line-height: 20px;
+  }
+  .button-search {
+    width: 80px;
+  }
+  .info,
+  .menu-list,
+  .lineA,
+  .lineB,
+  .lineC,
+  .container-2 .sale,
+  .line-menu {
+    display: none;
+  }
+}
